@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "EOSC Interoperability guidelines profile."
+authors:
+  - family-names:
+    given-names:
+    orcid:
+title: "EOSC Interoperability guidelines profile"
+version: 4.0
+doi:
+date-released: 2023-09-26
