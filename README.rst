@@ -1,13 +1,13 @@
 EOSC-Profiles for Interoperability Guideline
 ============================================
 
-TODO
+previous documentation at `EOSC Future Wiki <https://wiki.eoscfuture.eu/display/PUBLIC/EOSC+Interoperability+Guideline+Profile+-+Data+Model>`_.
 
 
 Initial preparation
 ~~~~~~~~~~~~~~~~~~~
 
-The initial preparation steps for making the `documentation <https://readthedocs.org/projects/eosc-provider-profile/>`_ at ReadTheDocs web-platform.
+The initial preparation steps for making the `documentation <https://readthedocs.org/projects/eosc-interoperability-profile/>`_ at ReadTheDocs web-platform.
 After change the current directory to the clone-dir, execute
 
 :code: make

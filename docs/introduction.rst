@@ -1,9 +1,9 @@
 Introduction
 ------------
 
-An EOSC Multi-Provider Regional or Thematic Catalogue is an...
+An EOSC is an...
 
 Versions
 ^^^^^^^^
 
-- 4.0, June 2022
+- 4.1-rc, September 2023
