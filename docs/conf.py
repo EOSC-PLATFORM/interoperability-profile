@@ -25,12 +25,12 @@ if not on_rtd:
 
 # -- Project information -----------------------------------------------------
 
-project = 'EOSC - Catalogue PROFILE'
+project = 'EOSC - Interoperability PROFILE'
 copyright = '2022-2023, EOSC'
-author = 'EOSC profile strategy team'
+author = 'EOSC metadata schema profile team'
 
 # The full version, including alpha/beta/rc tags
-release = '4.0'
+release = '4.1-rc'
 
 
 # -- General configuration ---------------------------------------------------
@@ -78,16 +78,16 @@ html_theme = "sphinx_rtd_theme"
 html_static_path = ['_static']
 
 html_css_files = [
-    'https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css'
+    'jquery.dataTables.min.css'
 ]
 
 html_js_files = [
-    'https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js',
+    'jquery.dataTables.min.js',
     'main.js',
 ]
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'EOSCcatalogueProfile'
+htmlhelp_basename = 'EOSCproviderProfile'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -106,7 +106,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'EOSCcatalogueProfile.tex', u'EOSC Catalogue profile',
+  ('index', 'EOSCproviderProfile.tex', u'EOSC Provider profile',
    u'European Open Science Cloud', 'manual'),
 ]
 
@@ -116,8 +116,8 @@ latex_documents = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'EOSCcatalogueProfile', u'EOSC Catalogue Profile',
-   u'EOSC', 'EOSCcatalogueProfile', 'One line description of project.',
+  ('index', 'EOSCproviderProfile', u'EOSC Provider Profile',
+   u'EOSC', 'EOSCproviderProfile', 'Description on Provider profile for the European Open Science Cloud.',
    'Miscellaneous'),
 ]
 
