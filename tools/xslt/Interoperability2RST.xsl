@@ -42,6 +42,11 @@ Interoperability Guideline
     <xsl:call-template name="selectSection"><xsl:with-param name="entity" select="'right'" /><xsl:with-param name="keyName" select="'rightTitle'" /></xsl:call-template>
     <xsl:call-template name="selectSection"><xsl:with-param name="entity" select="'right'" /><xsl:with-param name="keyName" select="'rightURI'" /></xsl:call-template>
     <xsl:call-template name="selectSection"><xsl:with-param name="entity" select="'right'" /><xsl:with-param name="keyName" select="'rightIdentifier'" /></xsl:call-template>
+    <xsl:call-template name="selectSection"><xsl:with-param name="entity" select="'interoperabilityRecord'" /><xsl:with-param name="keyName" select="'description'" /></xsl:call-template>
+    <xsl:call-template name="selectSection"><xsl:with-param name="entity" select="'interoperabilityRecord'" /><xsl:with-param name="keyName" select="'status'" /></xsl:call-template>
+    <xsl:call-template name="selectSection"><xsl:with-param name="entity" select="'interoperabilityRecord'" /><xsl:with-param name="keyName" select="'domain'" /></xsl:call-template>
+    <xsl:call-template name="selectSection"><xsl:with-param name="entity" select="'interoperabilityRecord'" /><xsl:with-param name="keyName" select="'eoscGuidelineType'" /></xsl:call-template>
+    <xsl:call-template name="selectSection"><xsl:with-param name="entity" select="'interoperabilityRecord'" /><xsl:with-param name="keyName" select="'eoscIntegrationOptions'" /></xsl:call-template>
 
     </xsl:template>
 
