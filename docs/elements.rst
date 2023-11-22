@@ -56,21 +56,16 @@ Interoperability Guideline
      - string
      - 1
      - Y
-   * - 
-     - 
-     - 
+   * - created
+     - Time/date the record was created.
+     - string
      - 1
-     - Y
-   * - 
-     - 
-     - 
+     - N
+   * - updated
+     - Time/date the record was last saved, with or without modifications.
+     - string
      - 1
-     - Y
-   * - resourceTypesInfo
-     - Interoperability Record Resource Type Info
-     - 
-     - 1
-     - Y
+     - N
    * - relatedStandards
      - Standards related to the guideline This should point out to related standards only when it is a prerequisitite/depenendency, and likely to influence a Provider's design towards interoperability based on the guideline.
      - 

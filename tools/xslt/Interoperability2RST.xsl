@@ -33,9 +33,8 @@ Interoperability Guideline
     <xsl:call-template name="selectSection"><xsl:with-param name="entity" select="'interoperabilityRecord'" /><xsl:with-param name="keyName" select="'resourceTypesInfo'" /></xsl:call-template>
     <xsl:call-template name="selectSection"><xsl:with-param name="entity" select="'resourceTypeInfo'" /><xsl:with-param name="keyName" select="'resourceType'" /></xsl:call-template>
     <xsl:call-template name="selectSection"><xsl:with-param name="entity" select="'resourceTypeInfo'" /><xsl:with-param name="keyName" select="'resourceTypeGeneral'" /></xsl:call-template>
-    <xsl:call-template name="selectSection"><xsl:with-param name="entity" select="'interoperabilityRecord'" /><xsl:with-param name="keyName" select="'Created'" /></xsl:call-template>
-    <xsl:call-template name="selectSection"><xsl:with-param name="entity" select="'interoperabilityRecord'" /><xsl:with-param name="keyName" select="'Updated'" /></xsl:call-template>
-    <xsl:call-template name="selectSection"><xsl:with-param name="entity" select="'interoperabilityRecord'" /><xsl:with-param name="keyName" select="'resourceTypesInfo'" /></xsl:call-template>
+    <xsl:call-template name="selectSection"><xsl:with-param name="entity" select="'interoperabilityRecord'" /><xsl:with-param name="keyName" select="'created'" /></xsl:call-template>
+    <xsl:call-template name="selectSection"><xsl:with-param name="entity" select="'interoperabilityRecord'" /><xsl:with-param name="keyName" select="'updated'" /></xsl:call-template>
     <xsl:call-template name="selectSection"><xsl:with-param name="entity" select="'interoperabilityRecord'" /><xsl:with-param name="keyName" select="'relatedStandards'" /></xsl:call-template>
     <xsl:call-template name="selectSection"><xsl:with-param name="entity" select="'relatedStandard'" /><xsl:with-param name="keyName" select="'relatedStandardURI'" /></xsl:call-template>
     <xsl:call-template name="selectSection"><xsl:with-param name="entity" select="'relatedStandard'" /><xsl:with-param name="keyName" select="'relatedStandardIdentifier'" /></xsl:call-template>
