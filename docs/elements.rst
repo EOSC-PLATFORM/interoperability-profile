@@ -21,14 +21,14 @@ Interoperability Guideline
      - Mandatory
 
 
-   * - 
-     - 
-     - 
+   * - identifier
+     - The Identifier is a unique string that identifies a resource. For software, determine whether the identifier is for a specific version of a piece of software,(per the Force11 Software Citation Principles11), or for all versions. The record's primary key for locating it in the EOSC-IF database.
+     - string
      - 1
      - Y
-   * - 
-     - 
-     - 
+   * - identifierType
+     - The type of Identifier.
+     - string
      - 1
      - Y
    * - title
