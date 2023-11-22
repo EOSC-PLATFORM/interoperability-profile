@@ -26,8 +26,23 @@ Interoperability Guideline
 ########
     <xsl:call-template name="tableHead"><xsl:with-param name="blockName" select="$blockName" /></xsl:call-template>
 
-    <xsl:call-template name="selectSection"><xsl:with-param name="entity" select="'interoperabilityRecord'" /><xsl:with-param name="keyName" select="'identifierInfo'" /></xsl:call-template>
-
+    <xsl:call-template name="selectSection"><xsl:with-param name="entity" select="'interoperabilityRecord'" /><xsl:with-param name="keyName" select="'identifier'" /></xsl:call-template>
+    <xsl:call-template name="selectSection"><xsl:with-param name="entity" select="'interoperabilityRecord'" /><xsl:with-param name="keyName" select="'identifierType'" /></xsl:call-template>
+    <xsl:call-template name="selectSection"><xsl:with-param name="entity" select="'interoperabilityRecord'" /><xsl:with-param name="keyName" select="'title'" /></xsl:call-template>
+    <xsl:call-template name="selectSection"><xsl:with-param name="entity" select="'interoperabilityRecord'" /><xsl:with-param name="keyName" select="'publicationYear'" /></xsl:call-template>
+    <xsl:call-template name="selectSection"><xsl:with-param name="entity" select="'interoperabilityRecord'" /><xsl:with-param name="keyName" select="'resourceTypesInfo'" /></xsl:call-template>
+    <xsl:call-template name="selectSection"><xsl:with-param name="entity" select="'resourceTypeInfo'" /><xsl:with-param name="keyName" select="'resourceType'" /></xsl:call-template>
+    <xsl:call-template name="selectSection"><xsl:with-param name="entity" select="'resourceTypeInfo'" /><xsl:with-param name="keyName" select="'resourceTypeGeneral'" /></xsl:call-template>
+    <xsl:call-template name="selectSection"><xsl:with-param name="entity" select="'interoperabilityRecord'" /><xsl:with-param name="keyName" select="'Created'" /></xsl:call-template>
+    <xsl:call-template name="selectSection"><xsl:with-param name="entity" select="'interoperabilityRecord'" /><xsl:with-param name="keyName" select="'Updated'" /></xsl:call-template>
+    <xsl:call-template name="selectSection"><xsl:with-param name="entity" select="'interoperabilityRecord'" /><xsl:with-param name="keyName" select="'resourceTypesInfo'" /></xsl:call-template>
+    <xsl:call-template name="selectSection"><xsl:with-param name="entity" select="'interoperabilityRecord'" /><xsl:with-param name="keyName" select="'relatedStandards'" /></xsl:call-template>
+    <xsl:call-template name="selectSection"><xsl:with-param name="entity" select="'relatedStandard'" /><xsl:with-param name="keyName" select="'relatedStandardURI'" /></xsl:call-template>
+    <xsl:call-template name="selectSection"><xsl:with-param name="entity" select="'relatedStandard'" /><xsl:with-param name="keyName" select="'relatedStandardIdentifier'" /></xsl:call-template>
+    <xsl:call-template name="selectSection"><xsl:with-param name="entity" select="'interoperabilityRecord'" /><xsl:with-param name="keyName" select="'rights'" /></xsl:call-template>
+    <xsl:call-template name="selectSection"><xsl:with-param name="entity" select="'right'" /><xsl:with-param name="keyName" select="'rightTitle'" /></xsl:call-template>
+    <xsl:call-template name="selectSection"><xsl:with-param name="entity" select="'right'" /><xsl:with-param name="keyName" select="'rightURI'" /></xsl:call-template>
+    <xsl:call-template name="selectSection"><xsl:with-param name="entity" select="'right'" /><xsl:with-param name="keyName" select="'rightIdentifier'" /></xsl:call-template>
 
     </xsl:template>
 
@@ -37,8 +52,15 @@ Interoperability Guideline
 ########
 
     <xsl:call-template name="tableHead"><xsl:with-param name="blockName" select="$blockName" /></xsl:call-template>
+    <xsl:call-template name="selectSection"><xsl:with-param name="entity" select="'interoperabilityRecord'" /><xsl:with-param name="keyName" select="'creators'" /></xsl:call-template>
+    <xsl:call-template name="selectSection"><xsl:with-param name="entity" select="'creatorNameTypeInfo'" /><xsl:with-param name="keyName" select="'creatorName'" /></xsl:call-template>
+    <xsl:call-template name="selectSection"><xsl:with-param name="entity" select="'creatorNameTypeInfo'" /><xsl:with-param name="keyName" select="'nameType'" /></xsl:call-template>
+    <xsl:call-template name="selectSection"><xsl:with-param name="entity" select="'creator'" /><xsl:with-param name="keyName" select="'givenName'" /></xsl:call-template>
+    <xsl:call-template name="selectSection"><xsl:with-param name="entity" select="'creator'" /><xsl:with-param name="keyName" select="'familyName'" /></xsl:call-template>
+    <xsl:call-template name="selectSection"><xsl:with-param name="entity" select="'creator'" /><xsl:with-param name="keyName" select="'nameIdentifier'" /></xsl:call-template>
+    <xsl:call-template name="selectSection"><xsl:with-param name="entity" select="'creatorAffiliationInfo'" /><xsl:with-param name="keyName" select="'affiliation'" /></xsl:call-template>
+    <xsl:call-template name="selectSection"><xsl:with-param name="entity" select="'creatorAffiliationInfo'" /><xsl:with-param name="keyName" select="'affiliationIdentifier'" /></xsl:call-template>
 
-    <xsl:call-template name="selectSection"><xsl:with-param name="entity" select="'interoperabilityRecord'" /><xsl:with-param name="keyName" select="'description'" /></xsl:call-template>
     </xsl:template>
 
 <xsl:template name="selectSection">
