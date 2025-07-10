@@ -1,19 +1,4 @@
-EOSC-Profiles for Interoperability Guideline
+EOSC Profile for Interoperability Guidelines
 ============================================
 
-previous documentation at `EOSC Future Wiki <https://wiki.eoscfuture.eu/display/PUBLIC/EOSC+Interoperability+Guideline+Profile+-+Data+Model>`_.
-
-
-Initial preparation
-~~~~~~~~~~~~~~~~~~~
-
-The initial preparation steps for making the `documentation <https://readthedocs.org/projects/eosc-interoperability-profile/>`_ at ReadTheDocs web-platform.
-After change the current directory to the clone-dir, execute
-
-:code: make
-
-which fetch the vocabularies from `Vocabulary repository <https://github.com/EOSC-PLATFORM/vocabulary>`_ if not existing.
-To generate an updated version of the documentation, execute following commands:
-
-:code: cd tools
-:code: ./generateDocFromXSD.sh
+EOSC Interoperability Guidelines are documents that outline how to effectively use protocols, APIs, and standards to interact with a class of EOSC services. These guidelines provide detailed explanations on integrating and harmonizing metadata standards, data formats, and access procedures, ensuring seamless data exchange and collaboration across diverse research infrastructures.
