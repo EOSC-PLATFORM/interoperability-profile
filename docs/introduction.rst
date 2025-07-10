@@ -1,10 +1,4 @@
 Introduction
 ------------
 
-An EOSC Interoperability ...
-
-Versions
-^^^^^^^^
-- 4.1-rc, June 2023, based on EOSC Profile Schema from April 24, 2023
-
-- 4.0, June 2022
+EOSC Interoperability Guidelines are documents that outline how to effectively use protocols, APIs, and standards to interact with a class of EOSC services. These guidelines provide detailed explanations on integrating and harmonizing metadata standards, data formats, and access procedures, ensuring seamless data exchange and collaboration across diverse research infrastructures.
