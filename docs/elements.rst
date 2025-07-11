@@ -8,7 +8,7 @@ EOSC Interoperability Guidelines are documents that outline how to effectively u
 
 In addition to the properties defined by the EOSC Resource Profile (TODO ADD LINK), the EOSC Service profile defines the following properties:
 
-.. list-table:: Guidelines Table
+.. list-table:: 
    :widths: 10, 15, 40, 15, 15, 15, 15
    :header-rows: 1
 
